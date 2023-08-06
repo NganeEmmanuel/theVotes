@@ -7,7 +7,7 @@ import jakarta.persistence.Entity;
 public class Vote {
 	private VoteId pk;
 	private Boolean upvote;
-	
+
 	public Boolean getUpvote() {
 		return upvote;
 	}

@@ -24,5 +24,5 @@ public class CommentId implements Serializable {
 	public void setFeature(Feature feature) {
 		this.feature = feature;
 	}
-	
+
 }

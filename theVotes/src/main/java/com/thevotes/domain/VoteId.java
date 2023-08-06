@@ -10,7 +10,7 @@ public class VoteId implements Serializable  {
 	private static final long serialVersionUID = 2578727012482871768L;
 	private User user;
 	private Feature feature;
-	
+
 	@ManyToOne
 	public User getUser() {
 		return user;
